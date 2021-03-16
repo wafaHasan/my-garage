@@ -1,0 +1,57 @@
+header{
+    background-color: rgb(60, 60, 255);
+    color: white;
+    font-size: 50px;
+    text-align: center;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+input, label{
+    display: block;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+body{
+    background: url(../assets/background.jpg) no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    /* background-image: url(../assets/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; */
+}
+
+.div1 {
+    background-color: rgb(7, 7, 7);
+    width: fit-content;
+    height: fit-content;
+    opacity: 90%;
+    padding: 30px;
+    margin: 30px;
+    color: white;
+    text-align: center;
+
+}
+.div2 {
+    background-color: rgb(7, 7, 7);
+    width: fit-content;
+    height: fit-content;
+    padding: 30px;
+    margin: 30px;
+    color: white;
+    opacity: 90%;
+    text-align: center;
+}
+
+li {
+    font-size: 30px;
+}
+
+p {
+    font-size: 20px;
+
+}
